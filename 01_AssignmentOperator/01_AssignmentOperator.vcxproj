@@ -20,9 +20,9 @@
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
-    <ProjectGuid>{972170ff-7bce-4fcd-a93c-684f1bae5688}</ProjectGuid>
+    <ProjectGuid>{2abae622-2aa1-4df8-858d-b56b76951a01}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
-    <RootNamespace>TEST02</RootNamespace>
+    <RootNamespace>_01_AssignmentOperator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -146,6 +146,9 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
     </Link>
   </ItemDefinitionGroup>
+  <ItemGroup>
+    <Text Include="input.txt" />
+  </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
