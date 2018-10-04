@@ -7,3 +7,13 @@
 > 5.`C:\Users\zhout\Documents\Visual Studio 2017\Templates\ProjectTemplates`出现my_OJ.zip模板文件，解压后发现没有main.cpp  
 > 6.将main.cpp文件复制到此目录，修改MyTemplate.vstemplate文件，添加`<ProjectItem ReplaceParameters="false" TargetFileName="main.cpp">main.cpp</ProjectItem>`,然后选择所有模板文件，右键添加到my_OJ.zip然后剪切到项目模板文件夹，替换原有文件。  
 > PS：因为模板压缩包进去直接是文件，所有要选择模板具体文件压缩，而不是文件夹压缩。
+
+LeetCode
+========
+
+LeetCode solutions in C++ 11 and Python3.
+
+|NO.|Title|Solution|Note|Difficulty|Tag|
+|---|-----|--------|----|----------|---|
+|1|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](001.%20Two%20Sum/main.cpp) [Python](001.%20Two%20Sum/solution.py)|[Note](000.%20Two%20Sum)|Easy|`Mapping`|
+|461|[Hamming Distances](https://leetcode.com/problems/hamming-distance/description/)|[C++](461.%20Hamming%20Distances/main.cpp) [Python](461.%20Hamming%20Distances/solution.py)|[Note](461.%20Hamming%20Distances/README.md)|Easy|`Bit computation`|
