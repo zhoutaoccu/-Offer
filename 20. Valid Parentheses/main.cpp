@@ -1,10 +1,10 @@
 //==================================================================
-// ¡¶LeetcodeË¢Ìâ¡·´úÂë
-// ×÷Õß£ºÖÜÌÎ
+// ã€ŠLeetcodeåˆ·é¢˜ã€‹ä»£ç 
+// ä½œè€…ï¼šå‘¨æ¶›
 //==================================================================
 
-// ÃæÊÔÌâ£ºÀ¨ºÅÆ¥Åä¼ì²â
-// Ìâ½â£ºÓÃ¶ÑÕ»À´ÊµÏÖÀ¨ºÅÆ¥Åä£¬Æ¥Åä¾ÍÈ¥µô£¬·ñÕß»ıÑ¹ÔÚ¶ÑÕ»£¬Èç¹û×îºó¶ÑÕ»Îª¿Õ£¬ÔòÀ¨ºÅÆ¥Åä
+// é¢è¯•é¢˜ï¼šæ‹¬å·åŒ¹é…æ£€æµ‹
+// é¢˜è§£ï¼šç”¨å †æ ˆæ¥å®ç°æ‹¬å·åŒ¹é…ï¼ŒåŒ¹é…å°±å»æ‰ï¼Œå¦è€…ç§¯å‹åœ¨å †æ ˆï¼Œå¦‚æœæœ€åå †æ ˆä¸ºç©ºï¼Œåˆ™æ‹¬å·åŒ¹é…
 
 #include <cstdio>
 #include <iostream>
@@ -27,9 +27,9 @@ public:
                 if (bracketMatch.empty()) {
                     return 0;
                 }
-                char tempBrack = bracketMatch.back(); // È¡×îºóÒ»¸ö×Ö·û
-                bracketMatch.pop_back(); // Ä¬ÈÏÈÏÎªÊÇÆ¥ÅäµÄ
-                if (s[i] == ')' && tempBrack != '(') { // ²»Æ¥ÅäÔò½áÊøÍË³ö
+                char tempBrack = bracketMatch.back(); // å–æœ€åä¸€ä¸ªå­—ç¬¦
+                bracketMatch.pop_back(); // é»˜è®¤è®¤ä¸ºæ˜¯åŒ¹é…çš„
+                if (s[i] == ')' && tempBrack != '(') { // ä¸åŒ¹é…åˆ™ç»“æŸé€€å‡º
                     return false;
                 }
                 if (s[i] == '}' && tempBrack != '{') {
@@ -49,18 +49,17 @@ int main()
     // freopen("input.txt", "r", stdin);
     //char a[MAX], n = 0;
     //char c;
-    //while (scanf("%s", &a[n++], &c) != EOF && c != '\n');//²»¶¨³¤Êı×é
+    //while (scanf("%s", &a[n++], &c) != EOF && c != '\n');//ä¸å®šé•¿æ•°ç»„
     //n--;
     //vector<char> str_s(a, a + n);
     Solution s;
 
-    string str = "[][]()(){()[{}}";
+    string str = "[](){[]()]";
     // cin >> str;
     bool result;
     result = s.isValid(str);
-    // cout<<result<<endl;
     printf("%d\n", result);
-    
+
 
 
     return 0;
