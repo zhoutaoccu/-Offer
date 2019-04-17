@@ -19,4 +19,6 @@ LeetCode solutions in C++ 11 and Python3.
 |---|-----|--------|----|----------|---|
 |001|[Two Sum](https://leetcode.com/problems/two-sum)|[C++](001.%20Two%20Sum/main.cpp) [Python](001.%20Two%20Sum/solution.py)|[Note](000.%20Two%20Sum)|Easy|`Mapping`|
 |461|[Hamming Distance](https://leetcode.com/problems/hamming-distance/description/)|[C++](461.%20Hamming%20Distance/main.cpp) [Python](461.%20Hamming%20Distance/solution.py)|[Note](461.%20Hamming%20Distance/README.md)|Easy|`Bit computation`|
+|020|[Valid Parentheses](https://leetcode.com/problems/add-two-numbers/description/)|[C++](020.%20Add%20Two%20Numbers/main.cpp) [Python](020.%20Add%20Two%20Numbers/solution.py)|[Note](002.%20Add%20Two%20Numbers/README.md)|Easy|`String`|
+
 |002|[Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/)|[C++](002.%20Add%20Two%20Numbers/main.cpp) [Python](002.%20Add%20Two%20Numbers/solution.py)|[Note](002.%20Add%20Two%20Numbers/README.md)|Medium|`Linked List`|
