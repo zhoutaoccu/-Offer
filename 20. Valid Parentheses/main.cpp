@@ -46,7 +46,7 @@ public:
 
 int main()
 {
-    freopen("input.txt", "r", stdin);
+    // freopen("input.txt", "r", stdin);
     //char a[MAX], n = 0;
     //char c;
     //while (scanf("%s", &a[n++], &c) != EOF && c != '\n');//不定长数组
@@ -54,12 +54,13 @@ int main()
     //vector<char> str_s(a, a + n);
     Solution s;
 
-    string str;
-    cin >> str;
+    string str = "[][]()(){()[{}}";
+    // cin >> str;
     bool result;
     result = s.isValid(str);
+    // cout<<result<<endl;
     printf("%d\n", result);
-
+    
 
 
     return 0;
