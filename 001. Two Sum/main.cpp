@@ -16,7 +16,7 @@ using namespace std;
 
 #define MAX 100+10
 
-class Solution_0 {
+class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
         for (int i = 0; i < nums.size(); ++i)
